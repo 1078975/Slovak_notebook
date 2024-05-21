@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Slovak Language Learning Notebook: a digital edition</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>Taylor edition</date>
+            </edition>
+            <respStmt>
+               <resp> Edited by </resp>
+               <persName>1078975<lb/>
+               </persName>
+               
+            </respStmt>
+         </editionStmt>
+         <extent>4 pages.<note>partial</note></extent>
+         <publicationStmt>
+            <publisher>Taylor Institution Library, one of the Bodleian Libraries of the
+               University of Oxford, </publisher>
+            <date>2022. </date>
+            <availability>
+               <licence xml:id="xml_files"
+                  target="https://creativecommons.org/licenses/by-sa/4.0/"> XML files are
+                  available for download under a <ref
+                     target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                     Attribution-ShareAlike 4.0 International License</ref>
+                  <graphic url="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>. </licence>
+               <licence xml:id="image_files"
+                  target="http://creativecommons.org/licenses/by-nc-nd/4.0/"> The image is
+                  reproduced from the Bodleian Library under a <ref
+                     target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative
+                     Commons Attribution-NonCommercial-ShareAlike 3.0 International
+                     License</ref>. </licence>
+            </availability>
+            <idno type="Git"></idno> <!-- Other ids can be given here, for example, a link to a mss description in a Special Collection catalogue -->
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:id="tayeditions">Taylor Editions: </title>
+            <title xml:id="guest">Guest</title>
+         </seriesStmt>
+         <notesStmt>
+               <note type="images">JPEG</note>
+               <note type="pbtype">pageNum</note>
+               <note type="holding"><p>Transcribed from a private collection. Images scanned from a private collection.</p></note>
+               <note type="intro">
+                  <p>This is a facsimile and transcription of <title>Slovak Language Learning Notebook</title>.</p>
+                  <p>The transcription was encoded in TEI P5 XML by Emma Huber. </p>
+               </note>
+            </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Personal Collection</repository>
+               </msIdentifier>
+               <msContents>
+                  <p>
+                     249-page A5 notebook.
+                  </p>
+               </msContents>
+               <history>
+                  <origin><p><origPlace>USA</origPlace> and <origPlace>Slovakia</origPlace> in <origDate when="2023">2023</origDate>
+                  </p></origin>
+               </history>
+            </msDesc>
+            <bibl type="citation"><title level="m">Slovak Language Learning Notebook</title>
+               <bibl> <date when="2023">2023</date></bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by encoding transcription from manuscript. </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>This is an 4-page excerpt of a personal notebook used for Slovak language learning. The excerpt was selected based on what pages had a variety of both sentences and grammar notes in consecutive pages. A translation is also provided on Taylor Editions.</p>
+               <p>As a manuscript document that is not always logically structured, the editor made their best attempt to encode the document diplomatically. Writing in blue and black ink appear in their correpsonding colors, and writing in pencil appears in gray. Underlining and deletion is preserved. Spelling mistakes and capitalization inconsistencies are preserved but not marked by encoding, as they are also preserved in the translation, and therefore visible to English speakers. Sections of text that were written in roughly complete sentences were encoding using the paragraph element, whereas writing that was not was encoded using the anonymous block, note, or table elements as appropriate. Divisions are made based on the date of writing, as denoted by a written date or inferred based on the ink color or pencil used. Slovak is set as the standard language of the document, and text in English or German is marked in the xml:lang attribute on the foreign element or whatever element was more descriptive. </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sk">Slovak</language>
+            <language ident="eng">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change resp="#1078975">
+            <date>2024-05-20</date>
+            <label>encoding revised and completed</label></change>
+         <change resp="#1078975">
+            <date>2024-05-19</date>
+            <label>first draft of encoded</label></change>
+      </revisionDesc>
+   </teiHeader>
+  <text xml:lang="sk" xml:id="Slovak_notebook">
+      <body>
+         <pb n="206"/>
+         <note rend="center color(gray)">-ovať→-uj__//-vať→__</note>
+         <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
+         <div type="section" rend="color(black)">
+         <p>Maria má 22 rokov. je z Nemecka.
+            <lb/>je študentka. študuje ekonomiu.</p>
+         <p>Ali má 28 rokov. je z Turecka.
+            <lb/>je študentka. študuje literatúru.</p>
+         <p>Ja sa <hi rend="u">sa</hi> volám Michal. → volám <hi rend="u">sa</hi> Michal.</p>
+         <note rend="h_8" xml:lang="en">“sa” al<hi rend="u">way</hi>s p2.</note>
+         </div>
+         <div type="section" rend="color(gray)">
+            <head xml:lang="en" rend="color(black)">Homework <date when="2023-02-01">2/1</date></head>
+            <p>Dobrý deň, <hi rend="u">volám s</hi>a zuzana Šoltýsová a <hi rend="u">ja som</hi>
+               <lb/>zo Slovenska, <hi rend="u">ja študujem</hi> v Bratislave. <hi rend="u">Ja nepracujem</hi>.
+               <lb/>Môj Brat <hi rend="u">sa volá</hi> Robert Šoltys. <hi rend="u">On pracuje</hi> ako
+               <lb rend="h_20"/>manažer.
+            </p>
+            <p>Ahoj, <hi rend="u">ja sa volám</hi> Johanna Mark a <hi  rend="u">ja som</hi> z Nemecka.
+               <lb/><hi rend="u">Ja študujem</hi> v Bratislave. <hi rend="u">Ja hovorím</hi> po Nemecky a
+               <lb/>po anglicky. Moja spolubyvajuca zuzana <hi rend="u">hovori</hi>
+               <lb/>len po slovensky. Ona <hi rend="u">nehovori</hi>. Zuzana <hi rend="u">studuje</hi> medecinu.
+            </p>
+            <p>pracuješ?
+               <lb/>Ako sa volaš? volaš sa ___?
+               <lb/><del rend="s">Odkial sí?</del> byvaš na slovensku? <hi rend="h_16">čo robiš?</hi>
+            </p>
+            <p>Koľko maš rokov? Hovoríš po Slovensky?<add place="above">poľsky</add> Študuješ?</p>
+            <p>Odkiaľ on? Kolko ma rokov? Hovorí po poľsky? Študuje?
+               <lb rend="h_18"/>čo robí?
+            </p>
+            <p>Nie, ale uči sa po slovensky?</p>
+            <lb/>
+            <table rows="2" cols="4">
+               <row>
+                  <cell>umývať</cell>
+                  <cell xml:lang="en">- to wash</cell>
+                  <cell>on umývá auto</cell>
+               </row>
+               <row>
+                  <cell>umývať sa</cell>
+                  <cell xml:lang="en">(for person)</cell>
+                  <cell>- umývá sa auto.
+                     <lb/>- on sa umývať </cell>
+                  <cell xml:lang="en">reflexive
+                     <lb/>verb?</cell>
+               </row>
+            </table>
+         <fw type="pageNum">206</fw>
+         <pb n="207"/>
+         <note rend="u">sa=<foreign xml:lang="en">oneself</foreign></note>
+         <fw rend="h_14"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
+         <ab>obliekať - <foreign xml:lang="en">to dress</foreign></ab>
+         <p>Ona sa oblieka. Ona oblieka dievča.
+            <lb rend="h_6"/>oblieka sa.
+            <lb rend="h_5"/><foreign xml:lang="en">(herself)</foreign>
+         </p>
+         <ab>obuvať - <foreign xml:lang="en">to put shoes on</foreign></ab>
+         <p>On sa obuva.  On obuvá chlapec.</p>
+         <ab>učit - <foreign xml:lang="en">to learn + to teach</foreign></ab>
+         <p>Ona sa uči (<foreign xml:lang="en">she learns</foreign>) on uči (<foreign xml:lang="en">to teach</foreign>)</p>
+         <p>Čo robí študent? Učí sa.</p>
+         <p>Čo robí profesor? Uči</p>
+         <table rows="1" cols="3">
+            <row>
+               <cell>Hrať sa</cell>
+               <cell>- <foreign xml:lang="en">to play</foreign></cell>
+               <cell>On sa hrá na play station.
+                  <lb/>Ja sa hrám na play station
+                  <lb/>Ty sa hráš</cell>
+            </row>
+         </table>
+         <table rows="1" cols="3">
+            <row>
+               <cell>Prechadzať sa</cell>
+               <cell>- <foreign xml:lang="en">to have a walk</foreign></cell>
+               <cell>Ona sa prechadzať po parku.
+                  <lb/>Ja sa prechadzam
+                  <lb/>Ty sa prechadzaš</cell>
+            </row>
+         </table>
+         <p>Maš brata alebo sestru? Mám jednu sestru.
+            <lb/>Ako sa volá sestra? volá sa Ekin.
+         </p>
+         <p>Maš brata alebo sestru? Mám jedneho brata.</p>
+         <table rows="1" cols="3">
+            <row>
+               <cell><foreign xml:lang="en">I play football on friday.</foreign></cell>
+               <cell>V piatok sa hrám futbal.
+                  <lb/>Futbal sa hrám v Piatok.
+                  <lb/>Ja sa hram futbal v Piatok.</cell>
+            </row>
+         </table>
+         <fw type="pageNum" rend="align-right">207</fw>
+         <pb n="208"/>
+         <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>: <date when="2023-02-01">2/1</date></fw>
+         <table rows="5" cols="4">
+            <row>
+               <cell>Meno</cell>
+               <cell xml:lang="en">- name</cell>
+               <cell>Ako sa voláš?</cell>
+            </row>
+            <row>
+               <cell>Prievisko</cell>
+               <cell xml:lang="en">- surname</cell>
+               <cell>Ako sa volaš priezviskom?</cell>
+               <cell>
+                  <lb/>Ako sa volaš na
+                  <lb/>priezvisko?
+               </cell>
+            </row>
+            <row>
+               <cell>Krajina</cell>
+               <cell xml:lang="en">- country</cell>
+               <cell>Odkiaľ si?</cell>
+            </row>
+            <row>
+               <cell>Profesia</cell>
+               <cell xml:lang="en">- profession</cell>
+               <cell>čo robiš?</cell>
+            </row>
+            <row>
+               <cell>Vek</cell>
+               <cell xml:lang="en">- age</cell>
+               <cell>Koľko maš rokov?</cell>
+            </row>
+         </table>
+            <lb/>
+            <p>On pracuje ako programátor</p>
+         <table rows="8" cols="2">
+            <row>
+               <cell>plynule</cell>
+               <cell xml:lang="en">- fluently</cell>
+            </row>
+            <row>
+               <cell>trochu</cell>
+               <cell xml:lang="en">- a little</cell>
+            </row>
+            <row>
+               <cell>aj</cell>
+               <cell xml:lang="en">- also</cell>
+            </row>
+            <row>
+               <cell>prečo</cell>
+               <cell xml:lang="en">- why</cell>
+            </row>
+            <row>
+               <cell>lebo</cell>
+               <cell xml:lang="en">- because</cell>
+            </row>
+            <row>
+               <cell>ľahka</cell>
+               <cell xml:lang="en">- easy</cell>
+            </row>
+            <row>
+               <cell>tažká</cell>
+               <cell xml:lang="en">- difficult</cell>
+            </row>
+            <row>
+               <cell>iba</cell>
+               <cell xml:lang="en">- only</cell>
+            </row>
+         </table>
+            <note rend="color(gray)">čás - time?</note>
+            <note rend="color(gray)">lebo = pretože <add>a bit more formal</add> = <foreign xml:lang="en">because</foreign></note><!-- how to fix these... -->
+         </div>
+         <div rend="color(blue)">
+            <note rend="center">HW</note>
+            <p>Odkiaľ je? <del rend="s">je</del> ona som z<del rend="s"/> Talianska
+               <lb/>Prečo hovori plynule po taliansky? z Talianska
+               <lb/>Kolko ma rokov? má dvadsaťtri
+               <lb/>prečo pracuje v Café? lebo <note rend="color(gray)" place="above">Ona má</note>Štipendium nie je dobre
+               <lb/>ma čas učit sa slovenčinu? nie <note rend="color(gray)" place="inline">nemá čas (učit sa.)<note rend="color(gray)" place="above">“učit sa” <lb/><foreign xml:lang="en">as unit</foreign></note></note>
+               <lb/>kto vela konverzuje? spolubývajúca<note rend="color(gray)" place="below">jej=<foreign xml:lang="en">her</foreign></note> kararína
+            </p>
+            <list>
+               <item>2. nepravda</item>
+               <item>3. nepravda (slovinka - <foreign xml:lang="en">slovene</foreign>?</item>
+               <item>4. pravda</item>
+               <item>5. nepravda</item>
+            </list>            
+            <p>pracuje? nepracuje vo firme?
+               <lb/>si? nie sí peter?</p>
+            <p>uči sa? neuči sa Helena slovenčinu na univerzite?</p>
+            <fw type="pageNum">208</fw>
+            <pb n="209"/>
+            <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
+            <note rend="center">HW</note>
+            <p>Nie, Johanna nes<add place="above" rend="color(gray)">ˇ</add>ttuduje medicinu.</p>
+            <p>Nie, Robert nepracuje ako lektor.</p>
+            <p>Nie, Johanna nie je učiteľka.</p>
+            <p>Nie, Carlo nie je Nemec.</p>
+            <p>Nie, Johanna sa <add rend="color(gray)" place="above">ne</add>volá na pri<add place="inline" rend="color(gray)">e</add>zvisko Šoltysová.</p>
+         </div>
+         <div rend="color(gray)">
+            <p>Ona je Talianka (alebo ona je z Talianska)</p>
+            <ab>m: slobodný (<foreign xml:lang="en">single</foreign>); ženatý (<foreign xml:lang="en">married</foreign>)<note place="margin" rend="color(blue)"><date when="2023-02-06">2/6</date></note>
+               <lb/>f: slobodná (<foreign xml:lang="en">single</foreign>); vydata (<foreign xml:lang="en">married</foreign>)
+            </ab>
+         </div>
+         <div rend="color(blue)">
+            <ab>Rodina - <foreign xml:lang="en">family</foreign></ab>
+            <p>Jana je vydatá. (Jej manžel sa volá Martin.)? <foreign xml:lang="en">correct?</foreign>
+               <lb/>Jana je manzelka<add place="below">mama</add>
+            </p>
+            <p>Martin je manžel. Martin je otec (<foreign xml:lang="en">father</foreign>)
+               <lb/>Martin je ženaty.
+            </p>
+            <p>Rex je pes (<foreign xml:lang="en">dog</foreign>)</p>
+            <p>Esther je slobodná. Ester je d<hi rend="u">ćer</hi>a.<note xml:lang="en" place="below">“d” is silent</note> (<foreign xml:lang="en">daughter</foreign>)
+            </p>
+            <p>Anton je slobodný.</p>
+            <note xml:lang="en" place="margin">feminine -a (nouns + adj)<!-- positioning of these -->
+               <lb/>masculine - y (adj)
+               <lb/>- consonants (noun)
+            </note>
+            <p>Mia je mačka (<foreign xml:lang="en">cat</foreign>)</p>
+         </div>
+         <fw type="pageNum" rend="align-right">209</fw>
+      </body>
+  </text>
+</TEI>

@@ -38,7 +38,7 @@
                      Commons Attribution-NonCommercial-ShareAlike 3.0 International
                      License</ref>. </licence>
             </availability>
-            <idno type="Git"></idno> <!-- Other ids can be given here, for example, a link to a mss description in a Special Collection catalogue -->
+            <idno type="Git">https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_translation.xml</idno>
          </publicationStmt>
          <seriesStmt>
             <title xml:id="tayeditions">Taylor Editions: </title>
@@ -79,7 +79,7 @@
          </projectDesc>
          <editorialDecl>
             <p>This is a translated 4-page excerpt of a personal notebook used for Slovak language learning. The excerpt was selected based on what pages had a variety of both sentences and grammar notes in consecutive pages. The Slovak-language transcription is also provided on Taylor Editions.</p>
-            <p>As a manuscript document that is not always logically structured, the editor made their best attempt to encode the document diplomatically. Writing in blue and black ink appear in their correpsonding colors, and writing in pencil appears in gray. Underlining and deletion is preserved. Spelling mistakes and capitalization inconsistencies are preserved in the translation but not marked by encoding. Sections of text that were written in roughly complete sentences were encoding using the paragraph element, whereas writing that was not was encoded using the anonymous block, note, or table elements as appropriate. Divisions are made based on the date of writing, as denoted by a written date or inferred based on the ink color or pencil used. English is set as the standard language of the document, and text in German is marked in the xml:lang attribute on the foreign element or whatever element was more descriptive. Words or parts of words that are untranslatable from Slovak to English are marked using the xml:lang attribute on the foreign element or whatever element was more descriptive.</p>
+            <p>As a manuscript document that is not always logically structured, the editor made their best attempt to encode the document diplomatically. Writing in blue and black ink appear in their correpsonding colors, and writing in pencil appears in gray. Underlining and deletion is preserved. Spelling mistakes and capitalization inconsistencies are preserved in the translation but not marked by encoding. Sections of text that were written in roughly complete sentences were encoding using the paragraph element, whereas writing that was not was encoded using the anonymous block, note, list, or table elements as appropriate. Divisions are made based on the date of writing, as denoted by a written date or inferred based on the ink color or pencil used. English is set as the standard language of the document, and text in German is marked in the xml:lang attribute on the foreign element or whatever element was more descriptive. Words or parts of words that are untranslatable from Slovak to English are marked using the xml:lang attribute on the foreign element or whatever element was more descriptive.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -97,9 +97,9 @@
    </teiHeader>
   <text xml:lang="en" xml:id="Slovak_notebook_translation">
       <body>
-         <pb n="206"/>
+         <pb n="206"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_206.jpg"/>
          <note rend="center color(gray)" xml:lang="sk">-ovať→-uj__//-vať→__</note>
-         <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
+         <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/Date:</fw>
          <div type="section" rend="color(black)">
          <p>Maria is 22 years old. she is from Germany.
             <lb/>she is a student. she studies economics.</p>
@@ -146,9 +146,9 @@
                </row>
             </table>
          <fw type="pageNum">206</fw>
-         <pb n="207"/>
+            <pb n="207"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_207.jpg"/>
          <note rend="u"><foreign xml:lang="sk">sa</foreign>=oneself</note>
-         <fw rend="h_14"><foreign xml:lang="de">Datum</foreign>/<foreign>Date</foreign>:</fw>
+         <fw rend="h_14"><foreign xml:lang="de">Datum</foreign>/Date:</fw>
          <ab>to dress - to dress</ab>
          <p>She gets dressed. She dresses the girl.
             <lb rend="h_6"/>to dress.
@@ -191,7 +191,7 @@
             </row>
          </table>
          <fw type="pageNum" rend="align-right">207</fw>
-         <pb n="208"/>
+            <pb n="208"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_208.jpg"/>
          <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/Date: <date when="2023-02-01">2/1</date></fw>
          <table rows="5" cols="4">
             <row>
@@ -204,8 +204,8 @@
                <cell>- surname</cell>
                <cell>What is your last name?</cell>
                <cell>
-                  <lb/>Ako sa volaš na
-                  <lb/>priezvisko?
+                  <lb/>What is your
+                  <lb/>last name?
                </cell>
             </row>
             <row>
@@ -226,42 +226,19 @@
          </table>
             <lb/>
             <p>He works as a programmer</p>
-         <table rows="8" cols="2">
-            <row>
-               <cell>fluently</cell>
-               <cell>- fluently</cell>
-            </row>
-            <row>
-               <cell>a little</cell>
-               <cell>- a little</cell>
-            </row>
-            <row>
-               <cell>also</cell>
-               <cell>- also</cell>
-            </row>
-            <row>
-               <cell>why</cell>
-               <cell>- why</cell>
-            </row>
-            <row>
-               <cell>because</cell>
-               <cell>- because</cell>
-            </row>
-            <row>
-               <cell>easy</cell>
-               <cell>- easy</cell>
-            </row>
-            <row>
-               <cell>difficult</cell>
-               <cell>- difficult</cell>
-            </row>
-            <row>
-               <cell>only</cell>
-               <cell>- only</cell>
-            </row>
-         </table>
-            <note rend="color(gray)">time - time?</note>
-            <note rend="color(gray)">because = because <add>a bit more formal</add> = because</note><!-- how to fix these... -->
+            <list>
+               <item>fluently - fluently</item>
+               <item>a little - a little</item>
+               <item>also - also</item>
+               <item>why - why</item>
+               <item>because - because</item>
+               <item>easy - easy</item>
+               <item>difficult - difficult</item>
+               <item>only - only</item>
+            </list>
+            <note rend="color(gray)" place="right">a bit more formal
+               <lb/>because = because = because
+            </note>
          </div>
          <div rend="color(blue)">
             <note rend="center">HW</note>
@@ -269,13 +246,13 @@
                <lb/>Why does she speak italian fluently? from Italy
                <lb/>How old is she? she is twenty-three
                <lb/>why does she work in the Café? because <note rend="color(gray)" place="above">She has</note>the Scholarship is not good
-               <lb/>does she have time to learn slovak? no <note rend="color(gray)" place="inline">she doesn't have time (to learn.)<note rend="color(gray)" place="above">“<foreign xml:lang="sk">učit sa</foreign>”
+               <lb/>does she have time to learn slovak? no <note rend="color(gray)" place="inline">she doesn't have time (to learn.)<note rend="color(gray)" place="above">“to learn”
                   <lb/>as unit</note></note>
-               <lb/>who talks a lot? the roommate<note rend="color(gray)" place="below"><foreign xml:lang="sk">jej</foreign>=her</note> kararína
+               <lb/>who talks a lot? the roommate<note rend="color(gray)" place="below">her=her</note> kararína
             </p>
             <list>
                <item>2. false</item>
-               <item>3. false (<foreign xml:lang="sk">slovinka</foreign> - slovene?</item>
+               <item>3. false (slovene - slovene?)</item>
                <item>4. true</item>
                <item>5. false</item>
             </list>            
@@ -283,7 +260,7 @@
                <lb/>are you? aren't you peter?</p>
             <p>is she learning? doesn't Helena learn slovak at university?</p>
             <fw type="pageNum">208</fw>
-            <pb n="209"/>
+            <pb n="209" facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_209.jpg"/>
             <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/Date:</fw>
             <note rend="center">HW</note>
             <p>No, Johanna doesn't sttudy medicine.</p>
@@ -310,7 +287,7 @@
             <p>Esther is single. Ester is a d<hi rend="u">aug</hi>hter.<note>“d” is silent</note> (daughter)
             </p>
             <p>Anton is single.</p>
-            <note place="margin">feminine -a (nouns + adj)<!-- positioning of these -->
+            <note place="margin">feminine -a (nouns + adj)
                <lb/>masculine - y (adj)
                <lb/>- consonants (noun)
             </note>

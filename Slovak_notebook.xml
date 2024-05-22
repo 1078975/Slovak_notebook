@@ -38,7 +38,7 @@
                      Commons Attribution-NonCommercial-ShareAlike 3.0 International
                      License</ref>. </licence>
             </availability>
-            <idno type="Git"></idno> <!-- Other ids can be given here, for example, a link to a mss description in a Special Collection catalogue -->
+            <idno type="Git">https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook.xml</idno>
          </publicationStmt>
          <seriesStmt>
             <title xml:id="tayeditions">Taylor Editions: </title>
@@ -79,7 +79,7 @@
          </projectDesc>
          <editorialDecl>
             <p>This is an 4-page excerpt of a personal notebook used for Slovak language learning. The excerpt was selected based on what pages had a variety of both sentences and grammar notes in consecutive pages. A translation is also provided on Taylor Editions.</p>
-               <p>As a manuscript document that is not always logically structured, the editor made their best attempt to encode the document diplomatically. Writing in blue and black ink appear in their correpsonding colors, and writing in pencil appears in gray. Underlining and deletion is preserved. Spelling mistakes and capitalization inconsistencies are preserved but not marked by encoding, as they are also preserved in the translation, and therefore visible to English speakers. Sections of text that were written in roughly complete sentences were encoding using the paragraph element, whereas writing that was not was encoded using the anonymous block, note, or table elements as appropriate. Divisions are made based on the date of writing, as denoted by a written date or inferred based on the ink color or pencil used. Slovak is set as the standard language of the document, and text in English or German is marked in the xml:lang attribute on the foreign element or whatever element was more descriptive. </p>
+               <p>As a manuscript document that is not always logically structured, the editor made their best attempt to encode the document diplomatically. Writing in blue and black ink appear in their correpsonding colors, and writing in pencil appears in gray. Underlining and deletion is preserved. Spelling mistakes and capitalization inconsistencies are preserved but not marked by encoding, as they are also preserved in the translation, and therefore visible to English speakers. Sections of text that were written in roughly complete sentences were encoding using the paragraph element, whereas writing that was not was encoded using the anonymous block, note, list, or table elements as appropriate. Divisions are made based on the date of writing, as denoted by a written date or inferred based on the ink color or pencil used. Slovak is set as the standard language of the document, and text in English or German is marked in the xml:lang attribute on the foreign element or whatever element was more descriptive. </p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -100,7 +100,7 @@
    </teiHeader>
   <text xml:lang="sk" xml:id="Slovak_notebook">
       <body>
-         <pb n="206"/>
+         <pb n="206" facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_206.jpg"/>
          <note rend="center color(gray)">-ovať→-uj__//-vať→__</note>
          <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
          <div type="section" rend="color(black)">
@@ -149,7 +149,7 @@
                </row>
             </table>
          <fw type="pageNum">206</fw>
-         <pb n="207"/>
+            <pb n="207"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_207.jpg"/>
          <note rend="u">sa=<foreign xml:lang="en">oneself</foreign></note>
          <fw rend="h_14"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
          <ab>obliekať - <foreign xml:lang="en">to dress</foreign></ab>
@@ -194,7 +194,7 @@
             </row>
          </table>
          <fw type="pageNum" rend="align-right">207</fw>
-         <pb n="208"/>
+            <pb n="208"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_208.jpg"/>
          <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>: <date when="2023-02-01">2/1</date></fw>
          <table rows="5" cols="4">
             <row>
@@ -229,42 +229,20 @@
          </table>
             <lb/>
             <p>On pracuje ako programátor</p>
-         <table rows="8" cols="2">
-            <row>
-               <cell>plynule</cell>
-               <cell xml:lang="en">- fluently</cell>
-            </row>
-            <row>
-               <cell>trochu</cell>
-               <cell xml:lang="en">- a little</cell>
-            </row>
-            <row>
-               <cell>aj</cell>
-               <cell xml:lang="en">- also</cell>
-            </row>
-            <row>
-               <cell>prečo</cell>
-               <cell xml:lang="en">- why</cell>
-            </row>
-            <row>
-               <cell>lebo</cell>
-               <cell xml:lang="en">- because</cell>
-            </row>
-            <row>
-               <cell>ľahka</cell>
-               <cell xml:lang="en">- easy</cell>
-            </row>
-            <row>
-               <cell>tažká</cell>
-               <cell xml:lang="en">- difficult</cell>
-            </row>
-            <row>
-               <cell>iba</cell>
-               <cell xml:lang="en">- only</cell>
-            </row>
-         </table>
-            <note rend="color(gray)">čás - time?</note>
-            <note rend="color(gray)">lebo = pretože <add>a bit more formal</add> = <foreign xml:lang="en">because</foreign></note><!-- how to fix these... -->
+         <list>
+            <item>plynule - <foreign xml:lang="en">fluently</foreign></item>
+            <item>trochu - <foreign xml:lang="en">a little</foreign></item>
+            <item>aj - <foreign xml:lang="en">also</foreign></item>
+            <item>prečo - <foreign xml:lang="en">why</foreign></item>
+            <item>lebo - <foreign xml:lang="en">because</foreign></item>
+            <item>ľahka - <foreign xml:lang="en">easy</foreign></item>
+            <item>tažká - <foreign xml:lang="en">difficult</foreign></item>
+            <item>iba - <foreign xml:lang="en">only</foreign></item>
+         </list>
+            <note rend="color(gray)" place="right">čás - time?</note>
+            <note rend="color(gray)" place="right"><foreign xml:lang="en">a bit more formal</foreign>
+               <lb/>lebo = pretože = <foreign xml:lang="en">because</foreign>
+            </note>
          </div>
          <div rend="color(blue)">
             <note rend="center">HW</note>
@@ -277,7 +255,7 @@
             </p>
             <list>
                <item>2. nepravda</item>
-               <item>3. nepravda (slovinka - <foreign xml:lang="en">slovene</foreign>?</item>
+               <item>3. nepravda (slovinka - <foreign xml:lang="en">slovene</foreign>?)</item>
                <item>4. pravda</item>
                <item>5. nepravda</item>
             </list>            
@@ -285,7 +263,7 @@
                <lb/>si? nie sí peter?</p>
             <p>uči sa? neuči sa Helena slovenčinu na univerzite?</p>
             <fw type="pageNum">208</fw>
-            <pb n="209"/>
+            <pb n="209"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_209.jpg"/>
             <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
             <note rend="center">HW</note>
             <p>Nie, Johanna nes<add place="above" rend="color(gray)">ˇ</add>ttuduje medicinu.</p>
@@ -312,7 +290,7 @@
             <p>Esther je slobodná. Ester je d<hi rend="u">ćer</hi>a.<note xml:lang="en" place="below">“d” is silent</note> (<foreign xml:lang="en">daughter</foreign>)
             </p>
             <p>Anton je slobodný.</p>
-            <note xml:lang="en" place="margin">feminine -a (nouns + adj)<!-- positioning of these -->
+            <note xml:lang="en" place="margin">feminine -a (nouns + adj)
                <lb/>masculine - y (adj)
                <lb/>- consonants (noun)
             </note>

@@ -103,13 +103,13 @@
          <pb n="206" facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_206.jpg"/>
          <note rend="center color(gray)">-ovať→-uj__//-vať→__</note>
          <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
-         <div type="section" rend="color(black)">
+         <div type="section" rend="color(black) squiggly-line-below">
          <p>Maria má 22 rokov. je z Nemecka.
             <lb/>je študentka. študuje ekonomiu.</p>
          <p>Ali má 28 rokov. je z Turecka.
             <lb/>je študentka. študuje literatúru.</p>
          <p>Ja sa <hi rend="u">sa</hi> volám Michal. → volám <hi rend="u">sa</hi> Michal.</p>
-         <note rend="h_8" xml:lang="en">“sa” al<hi rend="u">way</hi>s p2.</note>
+         <note place="below" xml:lang="en">“sa” al<hi rend="u">way</hi>s p2.</note>
          </div>
          <div type="section" rend="color(gray)">
             <head xml:lang="en" rend="color(black)">Homework <date when="2023-02-01">2/1</date></head>
@@ -150,7 +150,7 @@
             </table>
          <fw type="pageNum">206</fw>
             <pb n="207"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_207.jpg"/>
-         <note rend="u">sa=<foreign xml:lang="en">oneself</foreign></note>
+         <note rend="u center">sa=<foreign xml:lang="en">oneself</foreign></note>
          <fw rend="h_14"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
          <ab>obliekať - <foreign xml:lang="en">to dress</foreign></ab>
          <p>Ona sa oblieka. Ona oblieka dievča.
@@ -244,7 +244,7 @@
                <lb/>lebo = pretože = <foreign xml:lang="en">because</foreign>
             </note>
          </div>
-         <div rend="color(blue)">
+         <div rend="color(blue) squiggly-line-below">
             <note rend="center">HW</note>
             <p>Odkiaľ je? <del rend="s">je</del> ona som z<del rend="s"/> Talianska
                <lb/>Prečo hovori plynule po taliansky? z Talianska

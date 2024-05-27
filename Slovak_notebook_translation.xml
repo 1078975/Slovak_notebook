@@ -100,13 +100,13 @@
          <pb n="206"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_206.jpg"/>
          <note rend="center color(gray)" xml:lang="sk">-ovať→-uj__//-vať→__</note>
          <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/Date:</fw>
-         <div type="section" rend="color(black)">
+         <div type="section" rend="color(black) squiggly-line-below">
          <p>Maria is 22 years old. she is from Germany.
             <lb/>she is a student. she studies economics.</p>
          <p>Ali is 28 years old. she is from Turkey.
             <lb/>she is a student. she studies literature.</p>
          <p>I am called Michal. → I am called Michal.</p>
-         <note rend="h_8" xml:lang="en">“<foreign xml:lang="sk">sa</foreign>” al<hi rend="u">way</hi>s p2.</note>
+         <note place="below" xml:lang="en">“<foreign xml:lang="sk">sa</foreign>” al<hi rend="u">way</hi>s p2.</note>
          </div>
          <div type="section" rend="color(gray)">
             <head xml:lang="en" rend="color(black)">Homework <date when="2023-02-01">2/1</date></head>
@@ -147,7 +147,7 @@
             </table>
          <fw type="pageNum">206</fw>
             <pb n="207"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_207.jpg"/>
-         <note rend="u"><foreign xml:lang="sk">sa</foreign>=oneself</note>
+         <note rend="u center"><foreign xml:lang="sk">sa</foreign>=oneself</note>
          <fw rend="h_14"><foreign xml:lang="de">Datum</foreign>/Date:</fw>
          <ab>to dress - to dress</ab>
          <p>She gets dressed. She dresses the girl.
@@ -240,7 +240,7 @@
                <lb/>because = because = because
             </note>
          </div>
-         <div rend="color(blue)">
+         <div rend="color(blue) squiggly-line-below">
             <note rend="center">HW</note>
             <p>Where is she from? <del rend="s">is</del> she am from<del rend="s"/> Italy
                <lb/>Why does she speak italian fluently? from Italy

@@ -46,11 +46,10 @@
          </seriesStmt>
          <notesStmt>
                <note type="images">JPEG</note>
-               <note type="pbtype">pageNum</note>
                <note type="holding"><p>Transcribed from a private collection. Images scanned from a private collection.</p></note>
                <note type="intro">
                   <p>This is a facsimile and transcription of <title>Slovak Language Learning Notebook</title>.</p>
-                  <p>The transcription was encoded in TEI P5 XML by Emma Huber. </p>
+                  <p>The transcription was encoded in TEI P5 XML by 1078975. </p>
                </note>
             </notesStmt>
          <sourceDesc>
@@ -108,7 +107,7 @@
             <lb/>je študentka. študuje ekonomiu.</p>
          <p>Ali má 28 rokov. je z Turecka.
             <lb/>je študentka. študuje literatúru.</p>
-         <p>Ja sa <hi rend="u">sa</hi> volám Michal. → volám <hi rend="u">sa</hi> Michal.</p>
+         <p>Ja <hi rend="u">sa</hi> volám Michal. → volám <hi rend="u">sa</hi> Michal.</p>
          <note place="below" xml:lang="eng">“sa” al<hi rend="u">way</hi>s p2.</note>
          </div>
          <div type="section" rend="color(gray)">
@@ -245,14 +244,18 @@
             </note>
          </div>
          <div rend="color(blue) squiggly-line-below">
-            <note rend="center">HW</note>
+            <head xml:lang="eng">HW</head>
             <p>Odkiaľ je? <del rend="s">je</del> ona som z<del rend="s"/> Talianska
                <lb/>Prečo hovori plynule po taliansky? z Talianska
                <lb/>Kolko ma rokov? má dvadsaťtri
                <lb/>prečo pracuje v Café? lebo <note rend="color(gray)" place="above">Ona má</note>Štipendium nie je dobre
-               <lb/>ma čas učit sa slovenčinu? nie <note rend="color(gray)" place="inline">nemá čas (učit sa.)<note rend="color(gray)" place="above">“učit sa” <lb/><foreign xml:lang="eng">as unit</foreign></note></note>
+               <lb/>ma čas učit sa slovenčinu? nie
                <lb/>kto vela konverzuje? spolubývajúca<note rend="color(gray)" place="below">jej=<foreign xml:lang="eng">her</foreign></note> kararína
             </p>
+            <note rend="color(gray)" place="right">“učit sa”
+               <lb/><foreign xml:lang="eng">as unit</foreign>
+               <lb/>nemá čas (učit sa.)
+            </note>
             <list>
                <item>2. nepravda</item>
                <item>3. nepravda (slovinka - <foreign xml:lang="eng">slovene</foreign>?)</item>
@@ -265,7 +268,9 @@
             <fw type="pageNum">208</fw>
             <pb n="209"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_209.jpg"/>
             <fw type="dateline"><foreign xml:lang="ger">Datum</foreign>/<foreign xml:lang="eng">Date</foreign>:</fw>
-            <note rend="center">HW</note>
+         </div>
+         <div rend="color(blue)">
+            <head rend="center" xml:lang="eng">HW</head>
             <p>Nie, Johanna nes<add place="above" rend="color(gray)">ˇ</add>ttuduje medicinu.</p>
             <p>Nie, Robert nepracuje ako lektor.</p>
             <p>Nie, Johanna nie je učiteľka.</p>
@@ -287,7 +292,7 @@
                <lb/>Martin je ženaty.
             </p>
             <p>Rex je pes (<foreign xml:lang="eng">dog</foreign>)</p>
-            <p>Esther je slobodná. Ester je d<hi rend="u">ćer</hi>a.<note xml:lang="eng" place="below">“d” is silent</note> (<foreign xml:lang="eng">daughter</foreign>)
+            <p>Esther je slobodná. Ester je d<hi rend="u">ćer</hi>a. (<foreign xml:lang="eng">daughter</foreign>)<note xml:lang="eng" place="below">“d” is silent</note> 
             </p>
             <p>Anton je slobodný.</p>
             <note xml:lang="eng" place="margin">feminine -a (nouns + adj)

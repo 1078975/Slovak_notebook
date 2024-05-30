@@ -46,11 +46,10 @@
          </seriesStmt>
          <notesStmt>
             <note type="images">JPEG</note>
-            <note type="pbtype">pageNum</note>
             <note type="holding"><p>Translated from a private collection. Images scanned from a private collection.</p></note>
             <note type="intro">
                <p>This is a facsimile and translation of <title>Slovak Language Learning Notebook (translation)</title>.</p>
-               <p>The transcription was encoded in TEI P5 XML by Emma Huber. </p>
+               <p>The transcription was encoded in TEI P5 XML by 1078975. </p>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -236,20 +235,24 @@
                <item>difficult - difficult</item>
                <item>only - only</item>
             </list>
+            <note rend="color(gray)" place="right">čás - time?</note>
             <note rend="color(gray)" place="right">a bit more formal
                <lb/>because = because = because
             </note>
          </div>
          <div rend="color(blue) squiggly-line-below">
-            <note rend="center">HW</note>
+            <head rend="center">HW</head>
             <p>Where is she from? <del rend="s">is</del> she am from<del rend="s"/> Italy
                <lb/>Why does she speak italian fluently? from Italy
                <lb/>How old is she? she is twenty-three
                <lb/>why does she work in the Café? because <note rend="color(gray)" place="above">She has</note>the Scholarship is not good
-               <lb/>does she have time to learn slovak? no <note rend="color(gray)" place="inline">she doesn't have time (to learn.)<note rend="color(gray)" place="above">“to learn”
-                  <lb/>as unit</note></note>
+               <lb/>does she have time to learn slovak? no
                <lb/>who talks a lot? the roommate<note rend="color(gray)" place="below">her=her</note> kararína
             </p>
+            <note rend="color(gray)" place="right">“to learn”
+               <lb/>as unit
+               <lb/>she does not have time (to learn.)
+            </note>
             <list>
                <item>2. false</item>
                <item>3. false (slovene - slovene?)</item>
@@ -262,7 +265,9 @@
             <fw type="pageNum">208</fw>
             <pb n="209" facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_209.jpg"/>
             <fw type="dateline"><foreign xml:lang="ger">Datum</foreign>/Date:</fw>
-            <note rend="center">HW</note>
+         </div>
+         <div rend="color(blue)">
+            <head rend="center">HW</head>
             <p>No, Johanna doesn't sttudy medicine.</p>
             <p>No, Robert doesn't work as a lecturer.</p>
             <p>No, Johanna isn't a teacher.</p>
@@ -284,7 +289,7 @@
                <lb/>Martin is married.
             </p>
             <p>Rex is a dog (dog)</p>
-            <p>Esther is single. Ester is a d<hi rend="u">aug</hi>hter.<note>“d” is silent</note> (daughter)
+            <p>Esther is single. Ester is a d<hi rend="u">aug</hi>hter. (daughter)<note place="below">“d” is silent</note>
             </p>
             <p>Anton is single.</p>
             <note place="margin">feminine -a (nouns + adj)

@@ -84,9 +84,9 @@
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="sk">Slovak</language>
+            <language ident="slo">Slovak</language>
             <language ident="eng">English</language>
-            <language ident="de">German</language>
+            <language ident="ger">German</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -98,21 +98,21 @@
             <label>first draft of encoded</label></change>
       </revisionDesc>
    </teiHeader>
-  <text xml:lang="sk" xml:id="Slovak_notebook">
+  <text xml:lang="slo" xml:id="Slovak_notebook">
       <body>
          <pb n="206" facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_206.jpg"/>
          <note rend="center color(gray)">-ovať→-uj__//-vať→__</note>
-         <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
+         <fw type="dateline"><foreign xml:lang="ger">Datum</foreign>/<foreign xml:lang="eng">Date</foreign>:</fw>
          <div type="section" rend="color(black) squiggly-line-below">
          <p>Maria má 22 rokov. je z Nemecka.
             <lb/>je študentka. študuje ekonomiu.</p>
          <p>Ali má 28 rokov. je z Turecka.
             <lb/>je študentka. študuje literatúru.</p>
          <p>Ja sa <hi rend="u">sa</hi> volám Michal. → volám <hi rend="u">sa</hi> Michal.</p>
-         <note place="below" xml:lang="en">“sa” al<hi rend="u">way</hi>s p2.</note>
+         <note place="below" xml:lang="eng">“sa” al<hi rend="u">way</hi>s p2.</note>
          </div>
          <div type="section" rend="color(gray)">
-            <head xml:lang="en" rend="color(black)">Homework <date when="2023-02-01">2/1</date></head>
+            <head xml:lang="eng" rend="color(black)">Homework <date when="2023-02-01">2/1</date></head>
             <p>Dobrý deň, <hi rend="u">volám s</hi>a zuzana Šoltýsová a <hi rend="u">ja som</hi>
                <lb/>zo Slovenska, <hi rend="u">ja študujem</hi> v Bratislave. <hi rend="u">Ja nepracujem</hi>.
                <lb/>Môj Brat <hi rend="u">sa volá</hi> Robert Šoltys. <hi rend="u">On pracuje</hi> ako
@@ -136,37 +136,37 @@
             <table rows="2" cols="4">
                <row>
                   <cell>umývať</cell>
-                  <cell xml:lang="en">- to wash</cell>
+                  <cell xml:lang="eng">- to wash</cell>
                   <cell>on umývá auto</cell>
                </row>
                <row>
                   <cell>umývať sa</cell>
-                  <cell xml:lang="en">(for person)</cell>
+                  <cell xml:lang="eng">(for person)</cell>
                   <cell>- umývá sa auto.
                      <lb/>- on sa umývať </cell>
-                  <cell xml:lang="en">reflexive
+                  <cell xml:lang="eng">reflexive
                      <lb/>verb?</cell>
                </row>
             </table>
          <fw type="pageNum">206</fw>
             <pb n="207"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_207.jpg"/>
-         <note rend="u center">sa=<foreign xml:lang="en">oneself</foreign></note>
-         <fw rend="h_14"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
-         <ab>obliekať - <foreign xml:lang="en">to dress</foreign></ab>
+         <note rend="u center">sa=<foreign xml:lang="eng">oneself</foreign></note>
+         <fw rend="h_14"><foreign xml:lang="ger">Datum</foreign>/<foreign xml:lang="eng">Date</foreign>:</fw>
+         <ab>obliekať - <foreign xml:lang="eng">to dress</foreign></ab>
          <p>Ona sa oblieka. Ona oblieka dievča.
             <lb rend="h_6"/>oblieka sa.
-            <lb rend="h_5"/><foreign xml:lang="en">(herself)</foreign>
+            <lb rend="h_5"/><foreign xml:lang="eng">(herself)</foreign>
          </p>
-         <ab>obuvať - <foreign xml:lang="en">to put shoes on</foreign></ab>
+         <ab>obuvať - <foreign xml:lang="eng">to put shoes on</foreign></ab>
          <p>On sa obuva.  On obuvá chlapec.</p>
-         <ab>učit - <foreign xml:lang="en">to learn + to teach</foreign></ab>
-         <p>Ona sa uči (<foreign xml:lang="en">she learns</foreign>) on uči (<foreign xml:lang="en">to teach</foreign>)</p>
+         <ab>učit - <foreign xml:lang="eng">to learn + to teach</foreign></ab>
+         <p>Ona sa uči (<foreign xml:lang="eng">she learns</foreign>) on uči (<foreign xml:lang="eng">to teach</foreign>)</p>
          <p>Čo robí študent? Učí sa.</p>
          <p>Čo robí profesor? Uči</p>
          <table rows="1" cols="3">
             <row>
                <cell>Hrať sa</cell>
-               <cell>- <foreign xml:lang="en">to play</foreign></cell>
+               <cell>- <foreign xml:lang="eng">to play</foreign></cell>
                <cell>On sa hrá na play station.
                   <lb/>Ja sa hrám na play station
                   <lb/>Ty sa hráš</cell>
@@ -175,7 +175,7 @@
          <table rows="1" cols="3">
             <row>
                <cell>Prechadzať sa</cell>
-               <cell>- <foreign xml:lang="en">to have a walk</foreign></cell>
+               <cell>- <foreign xml:lang="eng">to have a walk</foreign></cell>
                <cell>Ona sa prechadzať po parku.
                   <lb/>Ja sa prechadzam
                   <lb/>Ty sa prechadzaš</cell>
@@ -187,7 +187,7 @@
          <p>Maš brata alebo sestru? Mám jedneho brata.</p>
          <table rows="1" cols="3">
             <row>
-               <cell><foreign xml:lang="en">I play football on friday.</foreign></cell>
+               <cell><foreign xml:lang="eng">I play football on friday.</foreign></cell>
                <cell>V piatok sa hrám futbal.
                   <lb/>Futbal sa hrám v Piatok.
                   <lb/>Ja sa hram futbal v Piatok.</cell>
@@ -195,16 +195,16 @@
          </table>
          <fw type="pageNum" rend="align-right">207</fw>
             <pb n="208"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_208.jpg"/>
-         <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>: <date when="2023-02-01">2/1</date></fw>
+         <fw type="dateline"><foreign xml:lang="ger">Datum</foreign>/<foreign xml:lang="eng">Date</foreign>: <date when="2023-02-01">2/1</date></fw>
          <table rows="5" cols="4">
             <row>
                <cell>Meno</cell>
-               <cell xml:lang="en">- name</cell>
+               <cell xml:lang="eng">- name</cell>
                <cell>Ako sa voláš?</cell>
             </row>
             <row>
                <cell>Prievisko</cell>
-               <cell xml:lang="en">- surname</cell>
+               <cell xml:lang="eng">- surname</cell>
                <cell>Ako sa volaš priezviskom?</cell>
                <cell>
                   <lb/>Ako sa volaš na
@@ -213,35 +213,35 @@
             </row>
             <row>
                <cell>Krajina</cell>
-               <cell xml:lang="en">- country</cell>
+               <cell xml:lang="eng">- country</cell>
                <cell>Odkiaľ si?</cell>
             </row>
             <row>
                <cell>Profesia</cell>
-               <cell xml:lang="en">- profession</cell>
+               <cell xml:lang="eng">- profession</cell>
                <cell>čo robiš?</cell>
             </row>
             <row>
                <cell>Vek</cell>
-               <cell xml:lang="en">- age</cell>
+               <cell xml:lang="eng">- age</cell>
                <cell>Koľko maš rokov?</cell>
             </row>
          </table>
             <lb/>
             <p>On pracuje ako programátor</p>
          <list>
-            <item>plynule - <foreign xml:lang="en">fluently</foreign></item>
-            <item>trochu - <foreign xml:lang="en">a little</foreign></item>
-            <item>aj - <foreign xml:lang="en">also</foreign></item>
-            <item>prečo - <foreign xml:lang="en">why</foreign></item>
-            <item>lebo - <foreign xml:lang="en">because</foreign></item>
-            <item>ľahka - <foreign xml:lang="en">easy</foreign></item>
-            <item>tažká - <foreign xml:lang="en">difficult</foreign></item>
-            <item>iba - <foreign xml:lang="en">only</foreign></item>
+            <item>plynule - <foreign xml:lang="eng">fluently</foreign></item>
+            <item>trochu - <foreign xml:lang="eng">a little</foreign></item>
+            <item>aj - <foreign xml:lang="eng">also</foreign></item>
+            <item>prečo - <foreign xml:lang="eng">why</foreign></item>
+            <item>lebo - <foreign xml:lang="eng">because</foreign></item>
+            <item>ľahka - <foreign xml:lang="eng">easy</foreign></item>
+            <item>tažká - <foreign xml:lang="eng">difficult</foreign></item>
+            <item>iba - <foreign xml:lang="eng">only</foreign></item>
          </list>
             <note rend="color(gray)" place="right">čás - time?</note>
-            <note rend="color(gray)" place="right"><foreign xml:lang="en">a bit more formal</foreign>
-               <lb/>lebo = pretože = <foreign xml:lang="en">because</foreign>
+            <note rend="color(gray)" place="right"><foreign xml:lang="eng">a bit more formal</foreign>
+               <lb/>lebo = pretože = <foreign xml:lang="eng">because</foreign>
             </note>
          </div>
          <div rend="color(blue) squiggly-line-below">
@@ -250,12 +250,12 @@
                <lb/>Prečo hovori plynule po taliansky? z Talianska
                <lb/>Kolko ma rokov? má dvadsaťtri
                <lb/>prečo pracuje v Café? lebo <note rend="color(gray)" place="above">Ona má</note>Štipendium nie je dobre
-               <lb/>ma čas učit sa slovenčinu? nie <note rend="color(gray)" place="inline">nemá čas (učit sa.)<note rend="color(gray)" place="above">“učit sa” <lb/><foreign xml:lang="en">as unit</foreign></note></note>
-               <lb/>kto vela konverzuje? spolubývajúca<note rend="color(gray)" place="below">jej=<foreign xml:lang="en">her</foreign></note> kararína
+               <lb/>ma čas učit sa slovenčinu? nie <note rend="color(gray)" place="inline">nemá čas (učit sa.)<note rend="color(gray)" place="above">“učit sa” <lb/><foreign xml:lang="eng">as unit</foreign></note></note>
+               <lb/>kto vela konverzuje? spolubývajúca<note rend="color(gray)" place="below">jej=<foreign xml:lang="eng">her</foreign></note> kararína
             </p>
             <list>
                <item>2. nepravda</item>
-               <item>3. nepravda (slovinka - <foreign xml:lang="en">slovene</foreign>?)</item>
+               <item>3. nepravda (slovinka - <foreign xml:lang="eng">slovene</foreign>?)</item>
                <item>4. pravda</item>
                <item>5. nepravda</item>
             </list>            
@@ -264,7 +264,7 @@
             <p>uči sa? neuči sa Helena slovenčinu na univerzite?</p>
             <fw type="pageNum">208</fw>
             <pb n="209"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_209.jpg"/>
-            <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/<foreign xml:lang="en">Date</foreign>:</fw>
+            <fw type="dateline"><foreign xml:lang="ger">Datum</foreign>/<foreign xml:lang="eng">Date</foreign>:</fw>
             <note rend="center">HW</note>
             <p>Nie, Johanna nes<add place="above" rend="color(gray)">ˇ</add>ttuduje medicinu.</p>
             <p>Nie, Robert nepracuje ako lektor.</p>
@@ -274,27 +274,27 @@
          </div>
          <div rend="color(gray)">
             <p>Ona je Talianka (alebo ona je z Talianska)</p>
-            <ab>m: slobodný (<foreign xml:lang="en">single</foreign>); ženatý (<foreign xml:lang="en">married</foreign>)<note place="margin" rend="color(blue)"><date when="2023-02-06">2/6</date></note>
-               <lb/>f: slobodná (<foreign xml:lang="en">single</foreign>); vydata (<foreign xml:lang="en">married</foreign>)
+            <ab>m: slobodný (<foreign xml:lang="eng">single</foreign>); ženatý (<foreign xml:lang="eng">married</foreign>)<note place="margin" rend="color(blue)"><date when="2023-02-06">2/6</date></note>
+               <lb/>f: slobodná (<foreign xml:lang="eng">single</foreign>); vydata (<foreign xml:lang="eng">married</foreign>)
             </ab>
          </div>
          <div rend="color(blue)">
-            <ab>Rodina - <foreign xml:lang="en">family</foreign></ab>
-            <p>Jana je vydatá. (Jej manžel sa volá Martin.)? <foreign xml:lang="en">correct?</foreign>
+            <ab>Rodina - <foreign xml:lang="eng">family</foreign></ab>
+            <p>Jana je vydatá. (Jej manžel sa volá Martin.)? <foreign xml:lang="eng">correct?</foreign>
                <lb/>Jana je manzelka<add place="below">mama</add>
             </p>
-            <p>Martin je manžel. Martin je otec (<foreign xml:lang="en">father</foreign>)
+            <p>Martin je manžel. Martin je otec (<foreign xml:lang="eng">father</foreign>)
                <lb/>Martin je ženaty.
             </p>
-            <p>Rex je pes (<foreign xml:lang="en">dog</foreign>)</p>
-            <p>Esther je slobodná. Ester je d<hi rend="u">ćer</hi>a.<note xml:lang="en" place="below">“d” is silent</note> (<foreign xml:lang="en">daughter</foreign>)
+            <p>Rex je pes (<foreign xml:lang="eng">dog</foreign>)</p>
+            <p>Esther je slobodná. Ester je d<hi rend="u">ćer</hi>a.<note xml:lang="eng" place="below">“d” is silent</note> (<foreign xml:lang="eng">daughter</foreign>)
             </p>
             <p>Anton je slobodný.</p>
-            <note xml:lang="en" place="margin">feminine -a (nouns + adj)
+            <note xml:lang="eng" place="margin">feminine -a (nouns + adj)
                <lb/>masculine - y (adj)
                <lb/>- consonants (noun)
             </note>
-            <p>Mia je mačka (<foreign xml:lang="en">cat</foreign>)</p>
+            <p>Mia je mačka (<foreign xml:lang="eng">cat</foreign>)</p>
          </div>
          <fw type="pageNum" rend="align-right">209</fw>
       </body>

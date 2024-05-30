@@ -84,9 +84,9 @@
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="sk">Slovak</language>
+            <language ident="slo">Slovak</language>
             <language ident="eng">English</language>
-            <language ident="de">German</language>
+            <language ident="ger">German</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -95,21 +95,21 @@
             <label>translation and encoding completed</label></change>
       </revisionDesc>
    </teiHeader>
-  <text xml:lang="en" xml:id="Slovak_notebook_translation">
+  <text xml:lang="eng" xml:id="Slovak_notebook_translation">
       <body>
          <pb n="206"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_206.jpg"/>
-         <note rend="center color(gray)" xml:lang="sk">-ovať→-uj__//-vať→__</note>
-         <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/Date:</fw>
+         <note rend="center color(gray)" xml:lang="slo">-ovať→-uj__//-vať→__</note>
+         <fw type="dateline"><foreign xml:lang="ger">Datum</foreign>/Date:</fw>
          <div type="section" rend="color(black) squiggly-line-below">
          <p>Maria is 22 years old. she is from Germany.
             <lb/>she is a student. she studies economics.</p>
          <p>Ali is 28 years old. she is from Turkey.
             <lb/>she is a student. she studies literature.</p>
          <p>I am called Michal. → I am called Michal.</p>
-         <note place="below" xml:lang="en">“<foreign xml:lang="sk">sa</foreign>” al<hi rend="u">way</hi>s p2.</note>
+         <note place="below" xml:lang="eng">“<foreign xml:lang="slo">sa</foreign>” al<hi rend="u">way</hi>s p2.</note>
          </div>
          <div type="section" rend="color(gray)">
-            <head xml:lang="en" rend="color(black)">Homework <date when="2023-02-01">2/1</date></head>
+            <head xml:lang="eng" rend="color(black)">Homework <date when="2023-02-01">2/1</date></head>
             <p>Hello, <hi rend="u">my name is</hi> zuzana Šoltýsová and <hi rend="u">I am</hi>
                <lb/>from Slovakia, <hi rend="u">I study</hi> in Bratislava. <hi rend="u">I don't work</hi>.
                <lb/>My Brother <hi rend="u">is called</hi> Robert Šoltys. <hi rend="u">He works</hi> as a
@@ -147,8 +147,8 @@
             </table>
          <fw type="pageNum">206</fw>
             <pb n="207"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_207.jpg"/>
-         <note rend="u center"><foreign xml:lang="sk">sa</foreign>=oneself</note>
-         <fw rend="h_14"><foreign xml:lang="de">Datum</foreign>/Date:</fw>
+         <note rend="u center"><foreign xml:lang="slo">sa</foreign>=oneself</note>
+         <fw rend="h_14"><foreign xml:lang="ger">Datum</foreign>/Date:</fw>
          <ab>to dress - to dress</ab>
          <p>She gets dressed. She dresses the girl.
             <lb rend="h_6"/>to dress.
@@ -192,7 +192,7 @@
          </table>
          <fw type="pageNum" rend="align-right">207</fw>
             <pb n="208"  facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_208.jpg"/>
-         <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/Date: <date when="2023-02-01">2/1</date></fw>
+         <fw type="dateline"><foreign xml:lang="ger">Datum</foreign>/Date: <date when="2023-02-01">2/1</date></fw>
          <table rows="5" cols="4">
             <row>
                <cell>Name</cell>
@@ -261,7 +261,7 @@
             <p>is she learning? doesn't Helena learn slovak at university?</p>
             <fw type="pageNum">208</fw>
             <pb n="209" facs="https://raw.githubusercontent.com/1078975/Slovak_notebook/main/Slovak_notebook_209.jpg"/>
-            <fw type="dateline"><foreign xml:lang="de">Datum</foreign>/Date:</fw>
+            <fw type="dateline"><foreign xml:lang="ger">Datum</foreign>/Date:</fw>
             <note rend="center">HW</note>
             <p>No, Johanna doesn't sttudy medicine.</p>
             <p>No, Robert doesn't work as a lecturer.</p>
